@@ -5,6 +5,6 @@ li:hover {
   background-color: #ddd;
 }
 
-li.lineThrough {
+ul li.lineThrough {
   text-decoration: line-through;
 }

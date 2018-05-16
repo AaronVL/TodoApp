@@ -1,7 +1,7 @@
 const button = document.querySelector('#addButton');
 const listItem = document.querySelector('ul');
 
-
+// Add item to ToDo list
 button.addEventListener('click', (e) => {
   let li = document.createElement('li');
   let taskValue = document.querySelector('#newTask').value;
@@ -15,8 +15,9 @@ button.addEventListener('click', (e) => {
   document.querySelector('#newTask').value = "";
 })
 
-listItem.addEventListener('click', (e) => {
-  if (e.target.tagName === 'li') {
-    e.target.classList.toggle('lineThrough');
-}
-});
+
+// listItem.addEventListener('click', (e) => {
+//   if (e.target.tagName === 'li') {
+//     e.target.classList.add('lineThrough');
+//   }
+// });
