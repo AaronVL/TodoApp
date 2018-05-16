@@ -1,0 +1,10 @@
+li {
+  font-size: 16px;
+}
+li:hover {
+  background-color: #ddd;
+}
+
+li.lineThrough {
+  text-decoration: line-through;
+}
