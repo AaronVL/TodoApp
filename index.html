@@ -4,15 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Todo App</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- Start Title -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1>To Do List</h1>
+      </div>
+    </div>
+  </div>
+  <!-- End Title -->
+  <!-- Start Input -->
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="input-group">
+        <input type="text" class="form-control" id="newTask" placeholder="New task">
+        <span class="input-group-btn">
+          <button class="btn btn-default" id="addButton" type="button">Add</button>
+        </span>
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+
+  <!-- End Input -->
+  <!-- Start Lists -->
+  <div class="container">
+    <div class="row">
+      <!-- Start Todo -->
+      <div class="col-sm-6 text-center">
+        <h2 class="">To Do</h2>
+        <ul id="todoList" class="list-unstyled">
+
+        </ul>
+
+      </div>
+      <!-- End Todo -->
+      <!-- Start Done -->
+      <div class="col-sm-6 text-center">
+        <h2>Done</h2>
+        <ul class="list-unstyled">
+
+        </ul>
+      </div>
+      <!-- End Done -->
+    </div>
+  </div>
+  <!-- End Lists -->
 
 
-
-<!-- Scripts  -->
-<script src="js/scripts.js"></script>
+  <!-- Scripts  -->
+  <script src="js/scripts.js"></script>
 </body>
 </html>
